@@ -3,7 +3,6 @@ package gal.udc.fic.vvs.email.correo;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
-
 import gal.udc.fic.vvs.email.archivo.Texto;
 
 public class AdjuntoTest {
@@ -113,5 +112,5 @@ public class AdjuntoTest {
 		Adjunto adjunto = new Adjunto(mensaje, texto);
 		assertTrue(adjunto.obtenerRuta() == "texto...");
 	}
-
+	
 }
