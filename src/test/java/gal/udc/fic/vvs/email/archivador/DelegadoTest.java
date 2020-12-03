@@ -9,6 +9,11 @@ import gal.udc.fic.vvs.email.correo.Mensaje;
 
 public class DelegadoTest {
 	
+	/*
+	 * Test para ver el espacio disponible
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testEspacioDisponible() {
 		ArchivadorSimple archivador = new ArchivadorSimple("Archivador", 3);
@@ -17,6 +22,11 @@ public class DelegadoTest {
 		assertTrue(espacio == 3);
 	}
 	
+	/*
+	 * Test para ver el espacio total
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testEspacio() {
 		ArchivadorSimple archivador = new ArchivadorSimple("Archivador", 3);
@@ -25,6 +35,11 @@ public class DelegadoTest {
 		assertTrue(espacio == 3);
 	}
 	
+	/*
+	 * Test para obtener nombre
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testObtenerNombre() {
 		ArchivadorSimple archivador = new ArchivadorSimple("Archivador", 3);
@@ -32,6 +47,11 @@ public class DelegadoTest {
 		assertTrue(delegado.obtenerNombre() == "Archivador");
 	}
 	
+	/*
+	 * Test para establecer y obtener el delegado
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void tesEstablecerObtenerDelegado() {
 		ArchivadorSimple archivador = new ArchivadorSimple("Archivador", 3);
@@ -40,6 +60,11 @@ public class DelegadoTest {
 		assertTrue(archivador == delegado.obtenerDelegado());
 	}
 	
+	/*
+	 * Test para establecer correo fallando
+	 * Tipo de prueba: Dinámica de caja negra negativa
+	 * Selección de datos: menor que el disponible
+	 */
 	@Test
 	public void testEstablecerCorreoError() {
 		ArchivadorSimple archivador = new ArchivadorSimple("Archivador", 3);
@@ -50,6 +75,11 @@ public class DelegadoTest {
 		assertTrue(delegado.almacenarCorreo(mensaje) == false);
 	}
 	
+	/*
+	 * Test para establecer correo correctamente
+	 * Tipo de prueba: Dinámica de caja negra positiva
+	 * Selección de datos: mayor que el disponible
+	 */
 	@Test
 	public void testEstablecerCorreo() {
 		ArchivadorSimple archivador = new ArchivadorSimple("Archivador", 50);

@@ -8,6 +8,11 @@ import gal.udc.fic.vvs.email.archivo.Texto;
 
 public class ReenvioTest {
 	
+	/*
+	 * Test para ver que obtener Hijo falla
+	 * Tipo de prueba: Dinámica de caja negra negativa
+	 * Selección de datos: aleatoría
+	 */
 	@Test(expected = OperacionInvalida.class)
 	public void testAñadirObtenerHijo() throws OperacionInvalida {
 		Texto texto = new Texto("texto1","texto");
@@ -16,6 +21,11 @@ public class ReenvioTest {
 		reenvio.obtenerHijo(0);
 	}
 	
+	/*
+	 * Test para ver el padre
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testObtenerPadre() throws OperacionInvalida {
 		Texto texto = new Texto("texto1","texto");
@@ -25,6 +35,11 @@ public class ReenvioTest {
 		assertTrue(reenvioBuscado == null);
 	}
 	
+	/*
+	 * Test para ver el icono
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testObtenerIcono() throws OperacionInvalida {
 		Texto texto = new Texto("texto1","texto");
@@ -34,6 +49,11 @@ public class ReenvioTest {
 		assertTrue(3 == icono);
 	}
 	
+	/*
+	 * Test para comprobar la función buscar
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testBuscar() throws OperacionInvalida {
 		Texto texto = new Texto("texto1","texto");
@@ -43,6 +63,11 @@ public class ReenvioTest {
 		assertTrue(reenvioBuscada == reenvio);
 	}
 	
+	/*
+	 * Test para ver que explorar falla
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test(expected = OperacionInvalida.class)
 	public void testAñadirExplorar() throws OperacionInvalida {
 		Texto texto = new Texto("texto1","texto");
@@ -51,6 +76,11 @@ public class ReenvioTest {
 		reenvio.explorar();
 	}
 	
+	/*
+	 * Test para comprobar establecer leidos
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testLeidos() throws OperacionInvalida {
 		Texto texto = new Texto("texto1","texto");
@@ -60,6 +90,11 @@ public class ReenvioTest {
 		assertTrue(reenvio.obtenerNoLeidos() == 0);
 	}
 	
+	/*
+	 * Test para ver el tamaño total
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testTamaño() throws OperacionInvalida {
 		Texto texto = new Texto("texto1","texto");
@@ -68,6 +103,11 @@ public class ReenvioTest {
 		assertTrue(reenvio.obtenerTamaño() == 10);
 	}
 	
+	/*
+	 * Test para obtener visualización
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testObtenerVisualizacion() throws OperacionInvalida {
 		Texto texto = new Texto("texto1","texto");
@@ -77,6 +117,11 @@ public class ReenvioTest {
 		assertTrue(reenvio.obtenerVisualizacion() == string );
 	}
 	
+	/*
+	 * Test para ver la previsualización
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testObtenerPreVisualizacion() throws OperacionInvalida {
 		Texto texto = new Texto("texto1","texto");
@@ -85,6 +130,11 @@ public class ReenvioTest {
 		assertTrue(reenvio.obtenerPreVisualizacion() == "texto...");
 	}
 	
+	/*
+	 * Test para obtener ruta
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testObtenerRuta() throws OperacionInvalida {
 		Texto texto = new Texto("texto1","texto");

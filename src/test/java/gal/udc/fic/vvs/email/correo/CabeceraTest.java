@@ -8,6 +8,11 @@ import gal.udc.fic.vvs.email.archivo.Texto;
 
 public class CabeceraTest {
 	
+	/*
+	 * Test para obtener hijo
+	 * Tipo de prueba: Dinámica de caja negra negativa
+	 * Selección de datos: aleatoría
+	 */
 	@Test(expected = OperacionInvalida.class)
 	public void testAñadirObtenerHijo() throws OperacionInvalida {
 		Texto texto = new Texto("texto1","texto");
@@ -16,6 +21,11 @@ public class CabeceraTest {
 		Correo cabeceraBuscada = cabecera.obtenerHijo(0);
 	}
 	
+	/*
+	 * Test para obtener padre
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testObtenerPadre() throws OperacionInvalida {
 		Texto texto = new Texto("texto1","texto");
@@ -25,6 +35,11 @@ public class CabeceraTest {
 		assertTrue(cabeceraBuscada == null);
 	}
 	
+	/*
+	 * Test para obtener icono
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testObtenerIcono() throws OperacionInvalida {
 		Texto texto = new Texto("texto1","texto");
@@ -34,6 +49,11 @@ public class CabeceraTest {
 		assertTrue(3 == icono);
 	}
 	
+	/*
+	 * Test para comprobar buscar
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testBuscar() throws OperacionInvalida {
 		Texto texto = new Texto("texto1","texto");
@@ -43,6 +63,11 @@ public class CabeceraTest {
 		assertTrue(cabeceraBuscada == cabecera);
 	}
 	
+	/*
+	 * Test para ver que explorar fallar
+	 * Tipo de prueba: Dinámica de caja negra  negativa
+	 * Selección de datos: aleatoría
+	 */
 	@Test(expected = OperacionInvalida.class)
 	public void testAñadirExplorar() throws OperacionInvalida {
 		Texto texto = new Texto("texto1","texto");
@@ -51,6 +76,11 @@ public class CabeceraTest {
 		cabecera.explorar();
 	}
 	
+	/*
+	 * Test para ver que añadir falla
+	 * Tipo de prueba: Dinámica de caja negra negativa
+	 * Selección de datos: aleatoría
+	 */
 	@Test(expected = OperacionInvalida.class)
 	public void testAñadir() throws OperacionInvalida {
 		Texto texto = new Texto("texto1","texto");
@@ -62,6 +92,11 @@ public class CabeceraTest {
 		cabecera.añadir(cabecera2);
 	}
 	
+	/*
+	 * Test para establecer leidos
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testLeidos() throws OperacionInvalida {
 		Texto texto = new Texto("texto1","texto");
@@ -71,6 +106,11 @@ public class CabeceraTest {
 		assertTrue(cabecera.obtenerNoLeidos() == 0);
 	}
 	
+	/*
+	 * Test para ver el tamaño
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testTamaño() throws OperacionInvalida {
 		Texto texto = new Texto("texto1","texto");
@@ -79,6 +119,11 @@ public class CabeceraTest {
 		assertTrue(cabecera.obtenerTamaño() == 18);
 	}
 	
+	/*
+	 * Test para ver que añadir padre falla
+	 * Tipo de prueba: Dinámica de caja negra negativa
+	 * Selección de datos: aleatoría
+	 */
 	@Test(expected = OperacionInvalida.class)
 	public void testAñadirPadre() throws OperacionInvalida {
 		Texto texto = new Texto("texto1","texto");
@@ -90,6 +135,11 @@ public class CabeceraTest {
 		cabecera.añadir(cabecera2);
 	}
 	
+	/*
+	 * Test para ver la visualización
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testObtenerVisualizacion() throws OperacionInvalida {
 		Texto texto = new Texto("texto1","texto");
@@ -99,6 +149,11 @@ public class CabeceraTest {
 		assertTrue(cabecera.obtenerVisualizacion() == string );
 	}
 	
+	/*
+	 * Test para ver obtener previsualización
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testObtenerPreVisualizacion() throws OperacionInvalida {
 		Texto texto = new Texto("texto1","texto");
@@ -107,6 +162,11 @@ public class CabeceraTest {
 		assertTrue(cabecera.obtenerPreVisualizacion() == "texto..");
 	}
 	
+	/*
+	 * Test para ver obtener ruta
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testObtenerRuta() throws OperacionInvalida {
 		Texto texto = new Texto("texto1","texto");

@@ -10,6 +10,11 @@ import gal.udc.fic.vvs.email.archivo.Texto;
 
 public class CarpetaLimitadaTest {
 	
+	/*
+	 * Test para obtener hijo
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testAñadirObtenerHijo() throws OperacionInvalida {
 		Carpeta carpeta = new Carpeta("carpetaLimitada");
@@ -21,6 +26,11 @@ public class CarpetaLimitadaTest {
 		assertTrue(carpetaLimitadaBuscada == carpetaLimitada2);
 	}
 	
+	/*
+	 * Test para obtener padre
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testAñadirObtenerPadre() throws OperacionInvalida {
 		Carpeta carpeta = new Carpeta("carpetaLimitada");
@@ -32,6 +42,11 @@ public class CarpetaLimitadaTest {
 		assertTrue(carpetaLimitadaBuscada == carpeta);
 	}
 	
+	/*
+	 * Test para obtener icono
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testObtenerIcono() throws OperacionInvalida {
 		Carpeta carpeta = new Carpeta("carpetaLimitada");
@@ -40,6 +55,11 @@ public class CarpetaLimitadaTest {
 		assertTrue(1 == icono);
 	}
 	
+	/*
+	 * Test para probar buscar
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testAñadirBuscar() throws OperacionInvalida {
 		Carpeta carpeta = new Carpeta("carpetaLimitada");
@@ -51,6 +71,11 @@ public class CarpetaLimitadaTest {
 		assertTrue(mensajeBuscado == mensaje);
 	}
 	
+	/*
+	 * Test para probar explorar
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testAñadirExplorar() throws OperacionInvalida {
 		Carpeta carpeta = new Carpeta("carpetaLimitada");
@@ -62,6 +87,11 @@ public class CarpetaLimitadaTest {
 		assertTrue(mensajeBuscado == mensaje);
 	}
 	
+	/*
+	 * Test para probar eliminar
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testAñadirEliminar() throws OperacionInvalida {
 		Carpeta carpeta = new Carpeta("carpetaLimitada");
@@ -76,6 +106,11 @@ public class CarpetaLimitadaTest {
 		assertTrue(carpetaLimitada.explorar().isEmpty());
 	}
 	
+	/*
+	 * Test para establecer leidos
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testLeidos() throws OperacionInvalida {
 		Carpeta carpeta = new Carpeta("carpetaLimitada");
@@ -87,6 +122,11 @@ public class CarpetaLimitadaTest {
 		assertTrue(carpetaLimitada.obtenerNoLeidos() == 0);
 	}
 	
+	/*
+	 * Test para ver el tamaño total
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testTamaño() throws OperacionInvalida {
 		Carpeta carpeta = new Carpeta("carpetaLimitada");
@@ -97,6 +137,11 @@ public class CarpetaLimitadaTest {
 		assertTrue(carpetaLimitada.obtenerTamaño() == 0);
 	}
 	
+	/*
+	 * Test para añadir padre
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testAñadirPadre() throws OperacionInvalida {
 		Carpeta carpeta = new Carpeta("carpetaLimitada");
@@ -110,6 +155,11 @@ public class CarpetaLimitadaTest {
 		assertTrue(carpetaLimitada.obtenerTamaño() == 0);
 	}
 	
+	/*
+	 * Test para obtener visualización
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testObtenerVisualizacion() throws OperacionInvalida {
 		Carpeta carpeta = new Carpeta("carpetaLimitada");
@@ -121,6 +171,11 @@ public class CarpetaLimitadaTest {
 		assertTrue(carpetaLimitada.obtenerVisualizacion() == string );
 	}
 	
+	/*
+	 * Test para obtener previsualización
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testObtenerPreVisualizacion() throws OperacionInvalida {
 		Carpeta carpeta = new Carpeta("carpetaLimitada");
@@ -128,6 +183,11 @@ public class CarpetaLimitadaTest {
 		assertTrue(carpetaLimitada.obtenerPreVisualizacion() == "carpetaLimitada");
 	}
 	
+	/*
+	 * Test para probar previsualización
+	 * Tipo de prueba: Dinámica de caja negra 
+	 * Selección de datos: aleatoría
+	 */
 	@Test
 	public void testObtenerRuta() throws OperacionInvalida {
 		Carpeta carpeta = new Carpeta("carpetaLimitada");
