@@ -7,6 +7,7 @@ import org.junit.Test;
 public class ImagenTest {
 	
 	/*
+	 * Test de unidad
 	 * Test para obtener contenido
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -18,6 +19,7 @@ public class ImagenTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para obtener MimeType
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -29,6 +31,7 @@ public class ImagenTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para ver el nombre
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -40,6 +43,7 @@ public class ImagenTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para ver el espacio 
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -51,6 +55,7 @@ public class ImagenTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para ver la previsualización
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría

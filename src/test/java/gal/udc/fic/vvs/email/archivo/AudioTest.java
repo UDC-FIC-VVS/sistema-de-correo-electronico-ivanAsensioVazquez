@@ -7,6 +7,7 @@ import org.junit.Test;
 public class AudioTest {
 
 	/*
+	 * Test de unidad
 	 * Test para obtener el contenido
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -18,6 +19,7 @@ public class AudioTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para obtener MymeType
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -29,6 +31,7 @@ public class AudioTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para obtener el nombre
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -40,6 +43,7 @@ public class AudioTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para ver el espacio
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -51,6 +55,7 @@ public class AudioTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para ver la previsualización
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría

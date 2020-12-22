@@ -9,6 +9,7 @@ import gal.udc.fic.vvs.email.archivo.Texto;
 public class ReenvioTest {
 	
 	/*
+	 * Test de unidad
 	 * Test para ver que obtener Hijo falla
 	 * Tipo de prueba: Dinámica de caja negra negativa
 	 * Selección de datos: aleatoría
@@ -22,6 +23,7 @@ public class ReenvioTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para ver el padre
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -36,6 +38,7 @@ public class ReenvioTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para ver el icono
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -50,6 +53,7 @@ public class ReenvioTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para comprobar la función buscar
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -64,6 +68,7 @@ public class ReenvioTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para ver que explorar falla
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -77,6 +82,7 @@ public class ReenvioTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para comprobar establecer leidos
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -91,6 +97,7 @@ public class ReenvioTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para ver el tamaño total
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -104,6 +111,7 @@ public class ReenvioTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para obtener visualización
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -118,6 +126,7 @@ public class ReenvioTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para ver la previsualización
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -131,6 +140,7 @@ public class ReenvioTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para obtener ruta
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría

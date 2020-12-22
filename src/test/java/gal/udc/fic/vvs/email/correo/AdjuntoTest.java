@@ -8,6 +8,7 @@ import gal.udc.fic.vvs.email.archivo.Texto;
 public class AdjuntoTest {
 	
 	/*
+	 * Test de unidad
 	 * Test para obtener hijo falle
 	 * Tipo de prueba: Dinámica de caja negra negativa
 	 * Selección de datos: aleatoría
@@ -21,6 +22,7 @@ public class AdjuntoTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para obtener padre
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -35,6 +37,7 @@ public class AdjuntoTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para obtener icono
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -49,6 +52,7 @@ public class AdjuntoTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para comprobar la operación buscar
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -63,6 +67,7 @@ public class AdjuntoTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para ver que falla explorar
 	 * Tipo de prueba: Dinámica de caja negra negativa
 	 * Selección de datos: aleatoría
@@ -76,6 +81,7 @@ public class AdjuntoTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para que añadir falle
 	 * Tipo de prueba: Dinámica de caja negra negativa
 	 * Selección de datos: aleatoría
@@ -92,6 +98,7 @@ public class AdjuntoTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para ver el numero de leidos después de establecerse los leídos
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -106,6 +113,7 @@ public class AdjuntoTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para ver el tamaño total
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -119,6 +127,7 @@ public class AdjuntoTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para que añadir falle
 	 * Tipo de prueba: Dinámica de caja negra negativa
 	 * Selección de datos: aleatoría
@@ -135,6 +144,7 @@ public class AdjuntoTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para probar visualización
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -149,6 +159,7 @@ public class AdjuntoTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para probar previsualización
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -162,6 +173,7 @@ public class AdjuntoTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para probar obtener ruta
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría

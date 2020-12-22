@@ -11,6 +11,7 @@ import gal.udc.fic.vvs.email.archivo.Texto;
 public class CarpetaLimitadaTest {
 	
 	/*
+	 * Test de unidad
 	 * Test para obtener hijo
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -27,6 +28,7 @@ public class CarpetaLimitadaTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para obtener padre
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -43,6 +45,7 @@ public class CarpetaLimitadaTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para obtener icono
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -56,6 +59,7 @@ public class CarpetaLimitadaTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para probar buscar
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -72,6 +76,7 @@ public class CarpetaLimitadaTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para probar explorar
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -88,6 +93,7 @@ public class CarpetaLimitadaTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para probar eliminar
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -107,6 +113,7 @@ public class CarpetaLimitadaTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para establecer leidos
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -123,6 +130,7 @@ public class CarpetaLimitadaTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para ver el tamaño total
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -138,6 +146,7 @@ public class CarpetaLimitadaTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para añadir padre
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -156,6 +165,7 @@ public class CarpetaLimitadaTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para obtener visualización
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -172,6 +182,7 @@ public class CarpetaLimitadaTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para obtener previsualización
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -184,6 +195,7 @@ public class CarpetaLimitadaTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para probar previsualización
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría

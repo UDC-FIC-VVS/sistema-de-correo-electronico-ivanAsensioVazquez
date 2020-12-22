@@ -10,6 +10,7 @@ import gal.udc.fic.vvs.email.correo.Mensaje;
 public class ArchivadorSimpleTest {
 
 	/*
+	 * Test de unidad
 	 * Test para ver el espacio disponible
 	 * Tipo de prueba: Dinámica de caja negra
 	 * Selección de datos: aleatoría
@@ -22,6 +23,7 @@ public class ArchivadorSimpleTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para ver el espacio total
 	 * Tipo de prueba: Dinámica de caja negra
 	 * Selección de datos: aleatoría
@@ -34,6 +36,7 @@ public class ArchivadorSimpleTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para obetner el nombre
 	 * Tipo de prueba: Dinámica de caja negra
 	 * Selección de datos: aleatoría
@@ -45,6 +48,7 @@ public class ArchivadorSimpleTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para ver y establecer el delegado
 	 * Tipo de prueba: Dinámica de caja negra
 	 * Selección de datos: aleatoría
@@ -59,6 +63,7 @@ public class ArchivadorSimpleTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para ver el espacio disponible
 	 * Tipo de prueba: Dinámica de caja negra negativa
 	 * Selección de datos: tamaño menor que el disponible
@@ -73,6 +78,7 @@ public class ArchivadorSimpleTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para establecer correo
 	 * Tipo de prueba: Dinámica de caja negra positiva
 	 * Selección de datos: tamaño superior al disponible

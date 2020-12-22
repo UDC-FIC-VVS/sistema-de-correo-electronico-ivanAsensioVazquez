@@ -10,6 +10,7 @@ import gal.udc.fic.vvs.email.correo.Mensaje;
 public class DelegadoTest {
 	
 	/*
+	 * Test de unidad
 	 * Test para ver el espacio disponible
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -23,6 +24,7 @@ public class DelegadoTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para ver el espacio total
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -36,6 +38,7 @@ public class DelegadoTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para obtener nombre
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -48,6 +51,7 @@ public class DelegadoTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para establecer y obtener el delegado
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -61,6 +65,7 @@ public class DelegadoTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para establecer correo fallando
 	 * Tipo de prueba: Dinámica de caja negra negativa
 	 * Selección de datos: menor que el disponible
@@ -76,6 +81,7 @@ public class DelegadoTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para establecer correo correctamente
 	 * Tipo de prueba: Dinámica de caja negra positiva
 	 * Selección de datos: mayor que el disponible

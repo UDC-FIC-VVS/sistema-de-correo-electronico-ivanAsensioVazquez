@@ -9,6 +9,7 @@ import gal.udc.fic.vvs.email.archivo.Texto;
 public class CabeceraTest {
 	
 	/*
+	 * Test de unidad
 	 * Test para obtener hijo
 	 * Tipo de prueba: Dinámica de caja negra negativa
 	 * Selección de datos: aleatoría
@@ -22,6 +23,7 @@ public class CabeceraTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para obtener padre
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -36,6 +38,7 @@ public class CabeceraTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para obtener icono
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -50,6 +53,7 @@ public class CabeceraTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para comprobar buscar
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -64,6 +68,7 @@ public class CabeceraTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para ver que explorar fallar
 	 * Tipo de prueba: Dinámica de caja negra  negativa
 	 * Selección de datos: aleatoría
@@ -77,6 +82,7 @@ public class CabeceraTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para ver que añadir falla
 	 * Tipo de prueba: Dinámica de caja negra negativa
 	 * Selección de datos: aleatoría
@@ -93,6 +99,7 @@ public class CabeceraTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para establecer leidos
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -107,6 +114,7 @@ public class CabeceraTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para ver el tamaño
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -120,6 +128,7 @@ public class CabeceraTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para ver que añadir padre falla
 	 * Tipo de prueba: Dinámica de caja negra negativa
 	 * Selección de datos: aleatoría
@@ -136,6 +145,7 @@ public class CabeceraTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para ver la visualización
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -150,6 +160,7 @@ public class CabeceraTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para ver obtener previsualización
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -163,6 +174,7 @@ public class CabeceraTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para ver obtener ruta
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría

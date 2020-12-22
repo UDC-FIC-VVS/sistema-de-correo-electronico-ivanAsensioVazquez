@@ -10,7 +10,8 @@ import gal.udc.fic.vvs.email.archivo.Texto;
 
 public class CarpetaTest {
 	
-	/*
+	/* 
+	 * Test de unidad
 	 * Test para obtener hijo
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -25,6 +26,7 @@ public class CarpetaTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para obtener padre
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -39,6 +41,7 @@ public class CarpetaTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para comprobar icono
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -51,6 +54,7 @@ public class CarpetaTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para comprobar buscar
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -66,6 +70,7 @@ public class CarpetaTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para comprobar explorar
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -81,6 +86,7 @@ public class CarpetaTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para probar eliminar
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -97,6 +103,7 @@ public class CarpetaTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para probar establecer leídos
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -111,6 +118,7 @@ public class CarpetaTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para comprobar tamaño
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -124,6 +132,7 @@ public class CarpetaTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para comprobar añadir padre
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -139,6 +148,7 @@ public class CarpetaTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para obtener previsualización
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -154,6 +164,7 @@ public class CarpetaTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para obtener previsualización
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
@@ -165,6 +176,7 @@ public class CarpetaTest {
 	}
 	
 	/*
+	 * Test de unidad
 	 * Test para obtener ruta
 	 * Tipo de prueba: Dinámica de caja negra 
 	 * Selección de datos: aleatoría
