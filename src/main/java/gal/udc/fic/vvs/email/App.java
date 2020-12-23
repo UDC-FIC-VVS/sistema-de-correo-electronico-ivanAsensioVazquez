@@ -5,10 +5,6 @@ import gal.udc.fic.vvs.email.archivo.*;
 import gal.udc.fic.vvs.email.cliente.*;
 import gal.udc.fic.vvs.email.correo.*;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )

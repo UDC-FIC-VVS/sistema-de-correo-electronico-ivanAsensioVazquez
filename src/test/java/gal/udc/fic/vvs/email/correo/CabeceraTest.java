@@ -162,7 +162,7 @@ public class CabeceraTest {
 	/*
 	 * Test de unidad
 	 * Test para ver obtener previsualización
-	 * Tipo de prueba: Dinámica de caja negra 
+	 * Tipo de prueba: Dinámica de caja negra
 	 * Selección de datos: aleatoría
 	 */
 	@Test
