@@ -159,8 +159,8 @@ public class CarpetaTest {
 		Texto texto = new Texto("texto1","texto");
 		Mensaje mensaje = new Mensaje(texto);
 		carpeta.añadir(mensaje);
-		String string = "carpeta (1)";
-		assertTrue(carpeta.obtenerVisualizacion() == string );
+		String stringCarpeta = "carpeta (1)";
+		assertTrue(carpeta.obtenerVisualizacion().equals(stringCarpeta));
 	}
 	
 	/*

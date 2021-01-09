@@ -63,7 +63,7 @@ public class TextoTest {
 	@Test
 	public void testPrevisualizacion(){
 		Texto texto = new Texto("Texto", "sonido");
-		assertTrue("Texto(6 bytes, text/plain)" == texto.obtenerPreVisualizacion());		
+		assertTrue("Texto(6 bytes, text/plain)".equals(texto.obtenerPreVisualizacion()));		
 	}
 
 }

@@ -54,7 +54,7 @@ public class ArchivadorSimpleTest {
 	 * Selección de datos: aleatoría
 	 */
 	@Test
-	public void tesEstablecerObtenerDelegado() {
+	public void testEstablecerObtenerDelegado() {
 		ArchivadorSimple simple = new ArchivadorSimple("Archivador", 3);
 		ArchivadorSimple delegado = new ArchivadorSimple("Delegado", 3);
 		simple.establecerDelegado(delegado);

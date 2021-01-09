@@ -154,8 +154,10 @@ public class AdjuntoTest {
 		Texto texto = new Texto("texto1","texto");
 		Mensaje mensaje = new Mensaje(texto);
 		Adjunto adjunto = new Adjunto(mensaje, texto);
-		String string = "texto...";
-		assertTrue(adjunto.obtenerVisualizacion() == string );
+		String stringAdjunto = "texto\n" + 
+				"\n" + 
+				"Adxunto: texto1(5 bytes, text/plain)";
+		assertTrue(adjunto.obtenerVisualizacion().equals(stringAdjunto));
 	}
 	
 	/*
@@ -169,7 +171,7 @@ public class AdjuntoTest {
 		Texto texto = new Texto("texto1","texto");
 		Mensaje mensaje = new Mensaje(texto);
 		Adjunto adjunto = new Adjunto(mensaje, texto);
-		assertTrue(adjunto.obtenerPreVisualizacion() == "texto...");
+		assertTrue(adjunto.obtenerPreVisualizacion().equals("texto..."));
 	}
 	
 	/*
@@ -183,7 +185,7 @@ public class AdjuntoTest {
 		Texto texto = new Texto("texto1","texto");
 		Mensaje mensaje = new Mensaje(texto);
 		Adjunto adjunto = new Adjunto(mensaje, texto);
-		assertTrue(adjunto.obtenerRuta() == "texto...");
+		assertTrue(adjunto.obtenerRuta().equals("texto..."));
 	}
 	
 }

@@ -7,14 +7,9 @@ import org.junit.Test;
 import com.tngtech.archunit.core.domain.JavaClasses;
 import com.tngtech.archunit.core.importer.ClassFileImporter;
 import com.tngtech.archunit.core.importer.ImportOption;
-import com.tngtech.archunit.core.importer.ImportOptions;
-import com.tngtech.archunit.core.importer.Location;
 import com.tngtech.archunit.lang.ArchRule;
 
-import gal.udc.fic.vvs.email.archivo.Archivo;
-import gal.udc.fic.vvs.email.archivo.Audio;
-import gal.udc.fic.vvs.email.correo.DecoradorMensaje;
-
+import gal.udc.fic.vvs.email.App;
 
 public class MyArchitectureTest {
 	
@@ -94,7 +89,7 @@ public class MyArchitectureTest {
     	 JavaClasses importedClasses = getClasses();
     	 
     	 ArchRule rule =
-    			 classes().that().resideInAPackage("..email.archivo..")
+    			 classes().that().belongToAnyOf(App.class).and().resideInAPackage("..email.archivo..")
     			 .should().onlyBeAccessed().byAnyPackage("..email.archivo..","..email.correo..");
           	    	
          rule.check(importedClasses);
@@ -111,7 +106,7 @@ public class MyArchitectureTest {
 		 JavaClasses importedClasses = getClasses();
 	    
 		 ArchRule rule =
-				 classes().that().resideInAPackage("..email.archivador..")
+				 classes().that().belongToAnyOf(App.class).and().resideInAPackage("..email.archivador..")
 				 .should().onlyBeAccessed().byAnyPackage("..email.archivador..", "..email.cliente..");
 	        	    
 	     rule.check(importedClasses);
@@ -128,7 +123,7 @@ public class MyArchitectureTest {
     	 JavaClasses importedClasses = getClasses();
     	 
     	 ArchRule rule =
-    			 classes().that().resideInAPackage("..email.cliente..")
+    			 classes().that().belongToAnyOf(App.class).and().resideInAPackage("..email.cliente..")
     			 .should().onlyBeAccessed().byAnyPackage("..email.cliente..");
           	    	
          rule.check(importedClasses);
@@ -144,9 +139,9 @@ public class MyArchitectureTest {
 	 public void correoArchivadorTest() {
 		 JavaClasses importedClasses = getClasses();
 	    
-		 ArchRule rule =
-				 classes().that().resideInAPackage("..email.correo..")
-				 .should().onlyBeAccessed().byAnyPackage("..email.correo..","..email.cliente..");
+		ArchRule rule =
+				 classes().that().belongToAnyOf(App.class).and().resideInAPackage("..email.correo..")
+				 .should().onlyBeAccessed().byAnyPackage("..email.correo..","..email.cliente..", "..email.archivador.");
 	        	    
 	     rule.check(importedClasses);
 	 }

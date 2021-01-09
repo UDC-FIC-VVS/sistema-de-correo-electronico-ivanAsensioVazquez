@@ -155,8 +155,8 @@ public class CabeceraTest {
 		Texto texto = new Texto("texto1","texto");
 		Mensaje mensaje = new Mensaje(texto);
 		Cabecera cabecera = new Cabecera(mensaje, "Cabecera", "valor");
-		String string = "texto...";
-		assertTrue(cabecera.obtenerVisualizacion() == string );
+		String stringCabecera = "Cabecera: valor\n" + "texto";
+		assertTrue(cabecera.obtenerVisualizacion().equals(stringCabecera));
 	}
 	
 	/*
@@ -170,7 +170,7 @@ public class CabeceraTest {
 		Texto texto = new Texto("texto1","texto");
 		Mensaje mensaje = new Mensaje(texto);
 		Cabecera cabecera = new Cabecera(mensaje, "Cabecera", "valor");
-		assertTrue(cabecera.obtenerPreVisualizacion() == "texto..");
+		assertTrue(cabecera.obtenerPreVisualizacion().equals("texto..."));
 	}
 	
 	/*
@@ -184,6 +184,6 @@ public class CabeceraTest {
 		Texto texto = new Texto("texto1","texto");
 		Mensaje mensaje = new Mensaje(texto);
 		Cabecera cabecera = new Cabecera(mensaje, "Cabecera", "valor");
-		assertTrue(cabecera.obtenerRuta() == "cabecera");
+		assertTrue(cabecera.obtenerRuta().equals("texto..."));
 	}
 }

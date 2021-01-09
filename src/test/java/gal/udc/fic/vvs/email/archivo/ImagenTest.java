@@ -63,7 +63,7 @@ public class ImagenTest {
 	@Test
 	public void testPrevisualizacion(){
 		Imagen imagen = new Imagen("Imagen", "sonido");
-		assertTrue("Imagen(6 bytes, image/png)" == imagen.obtenerPreVisualizacion());		
+		assertTrue("Imagen(6 bytes, image/png)".equals(imagen.obtenerPreVisualizacion()));		
 	}
 
 }

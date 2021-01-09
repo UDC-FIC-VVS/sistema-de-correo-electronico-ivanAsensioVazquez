@@ -121,8 +121,13 @@ public class ReenvioTest {
 		Texto texto = new Texto("texto1","texto");
 		Mensaje mensaje = new Mensaje(texto);
 		Reenvio reenvio = new Reenvio(mensaje, mensaje);
-		String string = "texto...";
-		assertTrue(reenvio.obtenerVisualizacion() == string );
+		String stringReenvio = "texto\n" + 
+				"\n" + 
+				"---- Correo reenviado ----\n" + 
+				"\n" + 
+				"texto\n" + 
+				"---- Fin correo reenviado ----";
+		assertTrue(reenvio.obtenerVisualizacion().equals(stringReenvio));
 	}
 	
 	/*
@@ -136,7 +141,7 @@ public class ReenvioTest {
 		Texto texto = new Texto("texto1","texto");
 		Mensaje mensaje = new Mensaje(texto);
 		Reenvio reenvio = new Reenvio(mensaje, mensaje);
-		assertTrue(reenvio.obtenerPreVisualizacion() == "texto...");
+		assertTrue(reenvio.obtenerPreVisualizacion().equals("texto..."));
 	}
 	
 	/*
@@ -150,7 +155,7 @@ public class ReenvioTest {
 		Texto texto = new Texto("texto1","texto");
 		Mensaje mensaje = new Mensaje(texto);
 		Reenvio reenvio = new Reenvio(mensaje, mensaje);
-		assertTrue(reenvio.obtenerRuta() == "texto...");
+		assertTrue(reenvio.obtenerRuta().equals("texto..."));
 	}
 
 }

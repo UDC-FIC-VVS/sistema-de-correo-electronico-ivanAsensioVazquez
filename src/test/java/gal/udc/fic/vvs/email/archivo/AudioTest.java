@@ -63,7 +63,7 @@ public class AudioTest {
 	@Test
 	public void testPrevisualizacion(){
 		Audio audio = new Audio("Audio", "sonido");
-		assertTrue("Audio(6 bytes, audio/ogg)" == audio.obtenerPreVisualizacion());		
+		assertTrue("Audio(6 bytes, audio/ogg)".equals(audio.obtenerPreVisualizacion()));		
 	}
 	
 }

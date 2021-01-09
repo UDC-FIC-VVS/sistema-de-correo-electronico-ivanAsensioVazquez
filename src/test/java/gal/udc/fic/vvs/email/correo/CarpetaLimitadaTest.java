@@ -177,8 +177,8 @@ public class CarpetaLimitadaTest {
 		Texto texto = new Texto("texto1","texto");
 		Mensaje mensaje = new Mensaje(texto);
 		carpetaLimitada.añadir(mensaje);
-		String string = "carpetaLimitada (1)";
-		assertTrue(carpetaLimitada.obtenerVisualizacion() == string );
+		String stringCarpeta = "carpetaLimitada (1)";
+		assertTrue(carpetaLimitada.obtenerVisualizacion().equals(stringCarpeta));
 	}
 	
 	/*
