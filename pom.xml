@@ -89,12 +89,14 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
+          <!-- Dependency to get spotbugs on maven -->
         <plugin>
 		  <groupId>com.github.spotbugs</groupId>
 		  <artifactId>spotbugs-maven-plugin</artifactId>
 		  <version>4.1.3</version>
 		  <dependencies>
 		    <!-- overwrite dependency on spotbugs if you want to specify the version of spotbugs -->
+		     <!-- To use it you have to put mvn spotbugs:spotbugs -->
 		    <dependency>
 		      <groupId>com.github.spotbugs</groupId>
 		      <artifactId>spotbugs</artifactId>
@@ -105,4 +107,22 @@
       </plugins>
     </pluginManagement>
   </build>
+  <reporting>
+      <plugins>
+        <plugin>
+         <!-- Dependency to get checkstyle on maven -->
+          <!-- To use it you have to put mvn checkstyle:checkstyle -->
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-checkstyle-plugin</artifactId>
+          <version>3.1.1</version>
+          <reportSets>
+            <reportSet>
+              <reports>
+                <report>checkstyle</report>
+              </reports>
+            </reportSet>
+          </reportSets>
+        </plugin>
+      </plugins>
+    </reporting>
 </project>
